@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>FAGOSA | تمر فاخر</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>FAGOSA</h1>
+  <p class="tagline">
+    تمر مختار بعناية – Dattes sélectionnées avec soin
+  </p>
+
+  <div class="buttons">
+    <a href="https://wa.me/212682519461" target="_blank">واتساب WhatsApp</a>
+    <a href="https://instagram.com/fagosa.a" target="_blank">إنستغرام Instagram</a>
+  </div>
+</header>
+
+<section>
+  <h2>من نحن | À propos</h2>
+  <p>
+    FAGOSA علامة متخصصة في تقديم التمر عالي الجودة، مختار بعناية وبأسلوب يليق بالذوق الرفيع.
+    <br><br>
+    FAGOSA est une marque spécialisée dans les dattes de haute qualité, soigneusement sélectionnées
+    pour une expérience authentique et élégante.
+  </p>
+</section>
+
+<section class="alt">
+  <h2>ماذا نقدم | Nos produits</h2>
+  <ul>
+    <li>تمر طبيعي فاخر – Dattes naturelles premium</li>
+    <li>اختيار دقيق للجودة – Sélection rigoureuse</li>
+    <li>مناسب للهدايا – Idéal pour cadeaux</li>
+  </ul>
+</section>
+
+<section>
+  <h2>لماذا FAGOSA ؟ | Pourquoi FAGOSA ?</h2>
+  <p>
+    لأننا نؤمن أن الجودة الحقيقية تبدأ من الاختيار، وتنتهي بثقة الزبون.
+    <br><br>
+    Chez FAGOSA, la qualité commence par le choix et se termine par la confiance du client.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 FAGOSA – جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
