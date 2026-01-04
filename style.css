@@ -93,3 +93,36 @@ footer {
   font-size: 14px;
 }
 
+.offer {
+  background: #fff;
+  padding: 80px 0;
+}
+
+.offer-text {
+  max-width: 700px;
+  margin: 20px auto 30px;
+  font-size: 18px;
+}
+
+.price-box {
+  margin: 25px 0;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.new-price {
+  color: #0f5132;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.urgency {
+  color: #b02a37;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
