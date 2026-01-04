@@ -2,206 +2,58 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>FAGOSA – تمور فاخرة</title>
+  <title>FAGOSA | تمور فاخرة</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- Language Switch -->
-<div class="lang-switch">
-  <button onclick="setLang('ar')">العربية</button>
-  <button onclick="setLang('fr')">Français</button>
-</div>
-
-<!-- HERO -->
-<header>
-  <div class="container">
-    <h1 data-ar="تمور فاخرة تليق بذوقك" data-fr="Dattes premium pour un goût d’exception">
-      تمور فاخرة تليق بذوقك
-    </h1>
-    <p data-ar="اختيار دقيق، جودة عالية، وتغليف أنيق"
-       data-fr="Sélection raffinée, qualité supérieure et emballage élégant">
-       اختيار دقيق، جودة عالية، وتغليف أنيق
-    </p>
-    <a href="https://wa.me/212600000000" class="btn"
-       data-ar="اطلب الآن عبر واتساب"
-       data-fr="Commander via WhatsApp">
-       اطلب الآن عبر واتساب
-    </a>
-  </div>
+<!-- ===== HEADER ===== -->
+<header class="header">
+  <h1>FAGOSA ✨</h1>
+  <p>تمور فاخرة مختارة بعناية لتجربة ذوق لا تُنسى</p>
+  <a href="#products" class="btn-primary">اكتشف الباقات</a>
 </header>
 
-<!-- WHY -->
-<section>
-  <div class="container">
-    <h2 data-ar="لماذا FAGOSA؟" data-fr="Pourquoi FAGOSA ?">لماذا FAGOSA؟</h2>
-    <div class="grid">
-      <div class="card" data-ar="🌴 تمور مختارة بعناية"
-           data-fr="🌴 Dattes soigneusement sélectionnées">
-           🌴 تمور مختارة بعناية
+<!-- ===== WHY FAGOSA ===== -->
+<section class="why">
+  <h2>لماذا FAGOSA؟</h2>
+  <div class="features">
+    <div>🌴 تمور ممتازة 100%</div>
+    <div>🎁 تغليف راقٍ للهدايا</div>
+    <div>🚚 توصيل سريع وآمن</div>
+    <div>⭐ رضا الزبائن أولويتنا</div>
+  </div>
+</section>
+
+<!-- ===== PRODUCTS ===== -->
+<section id="products" class="products">
+  <h2>باقات FAGOSA الفاخرة</h2>
+
+  <div class="grid">
+
+    <!-- Product 1 -->
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/product1.jpg" alt="باقة كلاسيك فاخرة">
       </div>
-      <div class="card" data-ar="🎁 تغليف فاخر للهدايا"
-           data-fr="🎁 Emballage luxueux pour cadeaux">
-           🎁 تغليف فاخر للهدايا
-      </div>
-      <div class="card" data-ar="🚚 توصيل سريع وآمن"
-           data-fr="🚚 Livraison rapide et sécurisée">
-           🚚 توصيل سريع وآمن
-      </div>
+      <h3>باقة كلاسيك فاخرة</h3>
+      <p>تمور مختارة بعناية مع تغليف أنيق يناسب جميع المناسبات.</p>
+      <div class="price">199 درهم</div>
+      <a href="product-classic.html" class="btn-secondary">تفاصيل الباقة</a>
     </div>
-  </div>
-</section>
 
-<!-- OFFER -->
-<section class="offer">
-  <div class="container">
-    <h2
-      data-ar="🎉 عرض FAGOSA الخاص"
-      data-fr="🎉 Offre spéciale FAGOSA">
-      🎉 عرض FAGOSA الخاص
-    </h2>
-
-    <p class="offer-text"
-      data-ar="باقة تمور فاخرة مختارة بعناية، بتغليف أنيق يليق بالهدايا والمناسبات الخاصة."
-      data-fr="Coffret de dattes premium soigneusement sélectionnées, avec un emballage élégant pour cadeaux et occasions spéciales.">
-      باقة تمور فاخرة مختارة بعناية، بتغليف أنيق يليق بالهدايا والمناسبات الخاصة.
-    </p>
-
-    <div class="price-box">
-      <span class="old-price">199 MAD</span>
-      <span class="new-price">149 MAD</span>
-    </div>
-    <p class="countdown-text"
-   data-ar="⏰ العرض ينتهي خلال:"
-   data-fr="⏰ L’offre se termine dans :">
-   ⏰ العرض ينتهي خلال:
-</p>
-
-<div id="countdown" class="countdown"></div>
-
-
-    <p class="urgency"
-      data-ar="⏰ عرض محدود – الكمية قليلة"
-      data-fr="⏰ Offre limitée – Quantité très limitée">
-      ⏰ عرض محدود – الكمية قليلة
-    </p>
-
-    <a href="https://wa.me/212600000000" class="btn big"
-      data-ar="اطلب الآن قبل نفاد الكمية"
-      data-fr="Commander maintenant avant rupture de stock">
-      اطلب الآن قبل نفاد الكمية
-    </a>
-  </div>
-</section>
-
-  <!-- PRODUCTS -->
-<section class="products">
-  <div class="container">
-    <h2
-      data-ar="✨ باقات FAGOSA"
-      data-fr="✨ Coffrets FAGOSA">
-      ✨ باقات FAGOSA
-    </h2>
-
-    <p
-      data-ar="كل باقة من FAGOSA صُممت لتقدّم تجربة فاخرة تليق بك أو بمن تهديها له."
-      data-fr="Chaque coffret FAGOSA est conçu pour offrir une expérience premium, pour vous ou pour vos cadeaux.">
-      كل باقة من FAGOSA صُممت لتقدّم تجربة فاخرة تليق بك أو بمن تهديها له.
-    </p>
-<div class="product-card"> 
-  <a href="products/classic.html" class="product-card">
-  <div class="product-image">
-    <img src="images/product1.jpg" alt="باقة كلاسيك فاخرة">
-   </div> 
-  <h3>باقة كلاسيك فاخرة</h3>
-</a>
-</div>
-
-  <div class="product-card"> 
-  <a href="products/gift.html" class="product-card">
-  <div class="product-image">
-    <img src="images/product2.jpg" alt="باقة هدايا مميزة">
-   </div> 
-  <h3>باقة هدايا مميزة</h3>
-</a>
-</div>
-
-       <div class="product-card"> 
-  <a href="products/luxe.html" class="product-card">
-  <div class="product-image">
-    <img src="images/product3.jpg" alt="باقة الذوق الرفيع">
-   </div> 
-  <h3>باقة الذوق الرفيع</h3>
-</a>
-</div>
-
-  </div>
-</section>
-
-<!-- CTA -->
-<section class="cta">
-  <div class="container">
-    <h2 data-ar="اجعل لحظاتك مميزة مع FAGOSA"
-        data-fr="Rendez vos moments uniques avec FAGOSA">
-        اجعل لحظاتك مميزة مع FAGOSA
-    </h2>
-    <a href="https://wa.me/212600000000" class="btn big"
-       data-ar="تواصل معنا الآن"
-       data-fr="Contactez-nous maintenant">
-       تواصل معنا الآن
-    </a>
-  </div>
-</section>
-
-<footer>
-  <p>© 2026 FAGOSA – All rights reserved</p>
-</footer>
-
-<script src="script.js"></script>
-<a href="https://wa.me/212600000000" class="whatsapp-float">
-  💬 اطلب عبر واتساب
-</a>
-<!-- TESTIMONIALS -->
-<section class="testimonials">
-  <div class="container">
-    <h2
-      data-ar="⭐ آراء زبائننا"
-      data-fr="⭐ Avis de nos clients">
-      ⭐ آراء زبائننا
-    </h2>
-
-    <div class="grid">
-      <div class="testimonial-card">
-        <p
-          data-ar="تمور رائعة وتغليف أكثر من ممتاز، وصلتني في وقت قياسي."
-          data-fr="Dattes excellentes et un emballage magnifique, livraison très rapide.">
-          تمور رائعة وتغليف أكثر من ممتاز، وصلتني في وقت قياسي.
-        </p>
-        <strong>— أمينة .ر</strong>
+    <!-- Product 2 -->
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/product2.jpg" alt="باقة بريميوم">
       </div>
-
-      <div class="testimonial-card">
-        <p
-          data-ar="أخذتها كهدية وكانت مفاجأة جميلة، جودة عالية جدًا."
-          data-fr="Je l’ai offerte en cadeau, la qualité est exceptionnelle.">
-          أخذتها كهدية وكانت مفاجأة جميلة، جودة عالية جدًا.
-        </p>
-        <strong>— يوسف .م</strong>
-      </div>
-
-      <div class="testimonial-card">
-        <p
-          data-ar="واضح أن المنتج مُحضّر بعناية، أنصح به بشدة."
-          data-fr="Produit préparé avec soin, je recommande fortement.">
-          واضح أن المنتج مُحضّر بعناية، أنصح به بشدة.
-        </p>
-        <strong>— سارة .ب</strong>
-      </div>
-    </div>
-  </div>
-</section>
-</body>
-</html>
-
-
+      <h3>باقة بريميوم</h3>
+      <p>مزيج فاخر من التمور المحشوة بنكهات مميزة.</p>
+      <div class="price">299 درهم
